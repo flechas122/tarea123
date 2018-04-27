@@ -1,0 +1,30 @@
+header{
+  background-color: #5b7989;
+  text-align: center;
+  padding: 20px;
+  margin-top: 0px;
+}
+
+header h1{
+  color: white;
+  text-align: left;
+  text-shadow: 2px 0px #02010a;
+}
+
+#imagen_central{
+  margin: 0px;
+  margin
+  border-radius: 10px;
+  background-color: #82c3a6;
+  text-align: center;
+  padding: 20px;
+}
+
+body{
+  background-color: black;
+}
+
+#contenido{
+  display: flex;
+  flex-direction: row;
+}
