@@ -10,90 +10,94 @@ h1{
   text-shadow: 2px 0 #02010a;
 }
 
-#imagen_central{
+
+@media (min-width:900px){
+.imagenesup{
   text-align: center;
+}
+
+.imagenes{
   background-color: #82c3a6;
-  padding: 20px 0px 20px 0px;
-  margin-top: 0px;
+  text-align: center;
 }
 
-@media (min-width:900px) {
-  #contenedor_imgs{
-      display: flex;
-      flex-direction:row;
-      padding: 10px;
-      background-color: #d5c75f;
-      padding: 100px;
-  }
-}
-
-@media (max-width:900px) {
- #contenedor_imgs{
- display: flex;
- flex-flow:row wrap;
- margin: 0px;
- background-color: #d5c75f;
- width: 100%;
- padding: 0px;
- text-align: center;
-      }
-
-  .imagenes_secundarias #B747 {
-    text-align: center;
-    width: 100%;
-  }
-
-  #contenedor_imgs div{
-        text-align: center;
-        margin: 10px;
-        padding: 20px;
-        width: 100%;
-      }
-
-
-  #contenedor_imgs > div> #B747{
-  order: 1;
-  width: 100%;
-  padding: 0px;
-  text-align: center;
- }
-
- #contenedor_imgs > div> #F16{
-  order: 2;
-  padding: 0px;
-  width: 100%;
-  text-align: center;
- }
-
-}
-
-
-
-#contenedor_imgs div{
-  text-align: center;
-  margin: 10px;
+.imagenes>div{
   padding: 20px;
-  width: 50%;
 }
 
-#contenedor_imgs > div> #B747{
-    box-shadow: 2px 2px 0px #82c3a6;
+.imagenes>div>img{
+  padding: 20px;
 }
 
-#contenedor_imgs > div> #B747:hover{
-  transition: 2s;
-  transform: rotate(10deg);
+#a1B747{
+  filter: blur(10px);
 }
 
-#contenedor_imgs > div> #f16{
-  box-shadow: 2px 2px 0px #82c3a6;
+#b2B747 {
+  filter:grayscale(100%);
 }
 
-#f16:hover {
-	transform: translateX(5px);
-  transform: translate(20px);
-  transition: 2s;
+#d4B747 {
+  filter:grayscale(100%);
 }
+
+#g6B747 {
+  filter:grayscale(100%);
+}
+
+#c3B747 {
+  filter: sepia(100%);
+}
+
+#f5B747 {
+  filter: sepia(100%);
+}
+}
+
+@media (max-width:900px){
+.imagenesup{
+  text-align: center;
+}
+
+.imagenes{
+  background-color: #82c3a6;
+  text-align: center;
+}
+
+.imagenes>div{
+  padding: 10px;
+}
+
+.imagenes>div>img{
+  padding: 20px;
+}
+
+#a1B747{
+  filter: blur(10px);
+}
+
+#b2B747 {
+  filter:grayscale(100%);
+}
+
+#d4B747 {
+  filter:grayscale(100%);
+}
+
+#g6B747 {
+  filter:grayscale(100%);
+}
+
+#c3B747 {
+  filter: sepia(100%);
+}
+
+#f5B747 {
+  filter: sepia(100%);
+}
+}
+
+
 
 @media (min-width:900px){
   footer{
