@@ -1,0 +1,185 @@
+header{
+  background-color: #5b7989;
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px;
+  margin-top: 0px;
+}
+
+h1{
+  color:white;
+  text-shadow: 2px 0 #02010a;
+}
+
+
+@media (min-width:900px){
+.imagenesup{
+  text-align: center;
+}
+
+.imagenes{
+  background-color: #82c3a6;
+  text-align: center;
+}
+
+.imagenes>div{
+  padding: 20px;
+}
+
+.imagenes>div>img{
+  padding: 20px;
+}
+
+#a1f16{
+  filter: blur(10px);
+}
+
+#b2f16 {
+  filter:grayscale(100%);
+}
+
+#d4f16 {
+  filter:grayscale(100%);
+}
+
+#g6f16 {
+  filter:grayscale(100%);
+}
+
+#c3f16 {
+  filter: sepia(100%);
+}
+
+#f5f16 {
+  filter: sepia(100%);
+}
+}
+
+@media (max-width:900px){
+.imagenesup{
+  text-align: center;
+}
+
+.imagenes{
+  background-color: #82c3a6;
+  text-align: center;
+}
+
+.imagenes>div{
+  padding: 10px;
+}
+
+.imagenes>div>img{
+  padding: 20px;
+}
+
+#a1f16 {
+  filter: blur(10px);
+}
+
+#b2f16 {
+  filter:grayscale(100%);
+}
+
+#d4f16 {
+  filter:grayscale(100%);
+}
+
+#g6f16 {
+  filter:grayscale(100%);
+}
+
+#c3f16 {
+  filter: sepia(100%);
+}
+
+#f5f16 {
+  filter: sepia(100%);
+}
+}
+
+
+
+@media (min-width:900px){
+  footer{
+    background-color:  #C6d5c5;
+    margin: 0px;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+  }
+
+  .contenedorpr{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+  }
+
+  .contacto{
+    width: 25%;
+    margin: 0%;
+    text-align: center;
+  }
+
+  .terminos{
+    width: 25%;
+    margin: 0%;
+    text-align: center;
+  }
+
+  .redes{
+    width: 25%;
+    margin: 0%;
+    text-align: center;
+  }
+
+  .derechos{
+    width: 25%;
+    margin: 0%;
+    text-align: center;
+  }
+
+}
+
+
+@media (max-width:900px){
+  footer{
+      background-color:  #C6d5c5;
+      margin: 0px;
+      padding: 10px;
+      border-radius: 0px 0px 10px 10px;
+    }
+
+    .contenedorpr{
+      text-align: center;
+    }
+
+    .contacto{
+      width: 100%;
+      margin: 0%;
+      text-align: center;
+    }
+
+    .terminos{
+      width: 100%;
+      margin: 0%;
+      text-align: center;
+
+    }
+
+    .redes{
+      width: 100%;
+      margin: 0%;
+      text-align: center;
+
+    }
+
+    .derechos{
+      width: 100%;
+      margin: 0%;
+      text-align: center;
+
+    }
+
+
+  }
+
+}
