@@ -11,7 +11,7 @@ header{
 60% { margin-top:-5% ; }
 100% { margin-top:  0% ;}
  }
- 
+
 @media (min-width:900px) {
   .navegacion{
     float: right;
@@ -52,6 +52,7 @@ h1{
 
 .imagenes>div>img{
   padding: 20px;
+  box-shadow: 2px #02010a;
 }
 
 #a1B747{

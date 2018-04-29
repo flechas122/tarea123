@@ -52,6 +52,7 @@ h1{
 
 .imagenes>div>img{
   padding: 20px;
+  box-shadow: 2px #02010a;
 }
 
 #a1f16{
